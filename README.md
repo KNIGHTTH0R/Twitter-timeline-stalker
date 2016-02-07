@@ -12,13 +12,15 @@ Searches instagram/facebook/tumblr's links from someone's timeline.
     pip install argparse
     ```
   3. [Oauth](https://dev.twitter.com/oauth/overview)
-  ⋅⋅* con_secret
-  ⋅⋅* con_secret_key
-  ⋅⋅* token
-  ⋅⋅* token_key
+ ⋅⋅⋅con_secret
+    con_secret_key
+    token
+    oken_key⋅
 
-Usage: python timeline,py -t [their @]
-Doesn't work with protected accounts. 
+Usage: ```python timeline.py -t [their @]```
+
+
+*Doesn't work on protected accounts.*
 
 
 Licence: [WTFPL](http://www.wtfpl.net/).
