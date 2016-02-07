@@ -11,7 +11,7 @@ Searches instagram/facebook/tumblr's links from someone's timeline.
     '''
     pip install argparse
     '''
-3. [Oauth](https://dev.twitter.com/oauth/overview)
+  3. [OAuth](https://dev.twitter.com/oauth/overview)
   ⋅⋅*con_secret
   ⋅⋅*con_secret_key
   ⋅⋅*token
