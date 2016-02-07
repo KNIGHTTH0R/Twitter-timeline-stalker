@@ -1,6 +1,6 @@
 # Twitter timeline stalker
 
-Searches instagram/facebook/tumblr's links from someone's timeline.
+Search instagram/facebook/tumblr's links from someone's timeline.
 
 #### Requirements
   1. Twitter python module
