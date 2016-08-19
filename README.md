@@ -5,26 +5,21 @@ Search instagram/facebook/tumblr's links in someone's timeline.
 #### Requirements
   1. Twitter python module
     ```
-    pip install twitter
+    pip3 install twitter
     ```
   2. argparse
     ```
-    pip install argparse
+    pip3 install argparse
     ```
   3. [Oauth](https://dev.twitter.com/oauth/overview)
     
-    con_secret
-    
-    con_secret_key
-    
-
-    token
-    
-    
-    oken_key
+APP_KEY
+APP_SECRET 
+OAUTH_TOKEN
+OAUTH_TOKEN_SECRET
 
 ###### Usage: 
-  ```python timeline.py -t [their @]```
+  ```python3 timeline.py -t [their @]```
 
 
 *Doesn't work on protected accounts.*
