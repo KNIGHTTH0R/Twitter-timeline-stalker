@@ -22,7 +22,7 @@ def timeline(x):
 		for tweet in timeline: #for each tweet
 			for i in range(len(tweet['entities']['urls'])): #check how many links per tweet and iterate over them
 				link = tweet['entities']['urls'][i]['expanded_url'] #saves the link for future use
-				if ('facebook' in link) or ('instagram' in link) or ('tumblr' in link): 
+				if ('facebook' in link) or ('instagram' in link) or ('tumblr' in link):  #keywords
 					print ("[*] Potencial profile found: %s" % (link))
 
 	except TwythonError as e:
@@ -50,4 +50,4 @@ def main():
 	bio(target)
 
 if __name__ == '__main__':
-	main() 
+	main()
