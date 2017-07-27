@@ -41,7 +41,7 @@ def bio(x):
 
 		if ('url' in bio):
 			link = info['entities']['url']['urls'][0]['expanded_url']
-			if ('facebook' in link) or ('instagram' in link) or ('tumblr' in link):
+			if ('facebook' in link) or ('instagram' in link) or ('tumblr' in link) or ('snap' in link):
 				print ("[*] Potencial profile found in bio's URL: %s" % (link))
 	except TwythonError as e:
 		print(e)
